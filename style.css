@@ -1,0 +1,78 @@
+:root {
+    --mainColor: #A8E6CE;
+    --secondaryColor: #DCEDC2;
+    --tertiaryColor: #FFD3B5;
+    --firstSupportColor: #FFAAA6;
+    --secondSupportColor: #FF8C94;
+    --primaryFont: 'Merriweather';
+    --secondaryFont: 'Oswald';
+    --tertiaryFont: 'Raleway';
+}
+
+.gradient-card {
+    height: 450px;
+    background: linear-gradient(var(--mainColor) 25%, var(--secondaryColor) 40%, var(--tertiaryColor) 55%, var(--firstSupportColor) 70%, var(--secondSupportColor) );
+    width: 33%;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+
+.box {
+    height: 300px;
+    margin: 3px;
+    position: relative;
+}
+
+.box-lower-right-top, .box-lower-right-bottom {
+    height: 150px;
+}
+
+.box-top{
+    background-color: var(--mainColor);
+}
+
+.box-lower-left {
+    background-color: var(--secondaryColor);
+}
+
+.box-lower-middle {
+    background-color: var(--tertiaryColor);
+}
+
+.box-lower-right-top {
+    background-color: var(--firstSupportColor);
+    margin-bottom: 0;
+}
+
+.box-lower-right-bottom {
+    background-color: var(--secondSupportColor);
+    margin-top:0;
+}
+
+div.col, div.col-md-4 {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+span {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+p {
+    color: white;
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+}
+
+h3 {
+    margin-bottom: 40px;
+}
+
+.font-stylings {
+    left: -520px;
+    top: 0;
+}
